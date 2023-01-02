@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    background-image: url("../Images/IMG_2125.svg");
+
+}
+
+.row{
+    width:100%;
+    padding:0px 80px;
+}
+
+.navbar{
+    width:100%;
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar li{
+    list-style: none;
+
+}
+
+.navbar li a{
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    color:rgb(144, 106, 179);
+    text-decoration-color: gold;
+
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(212, 195, 40)
+
+}
+
+.navbar h1{
+    color:darkorchid;
+    font-size: 80px;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    margin-top: 10px;
+}
+
+.content{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.content h1{
+    font-size: 70px;
+    color:rgb(245, 222, 16);
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.content p{
+    font-size: 25px;
+    color:rgb(122, 41, 163);
+}
+
+.content a{
+    margin-top: 20px;
+    font-size: 19px;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.content a:hover{
+    background-color: gold;
+}
