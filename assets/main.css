@@ -25,6 +25,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    text-align: right;
 }
 
 nav li {
@@ -67,6 +68,10 @@ h6 {
     place-items: center;
 }
 
+.pages {
+    text-align: right;
+    color: white;
+}
 
 /* ||BP ICONS */
 .grid-container {
