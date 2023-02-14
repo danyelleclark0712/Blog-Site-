@@ -5,33 +5,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A blog post by Danyelle Clark, an aspiring front-end web developer.">
-    <title>Blog Post</title>
+    <title>Blog Site</title>
     <link rel="stylesheet" href="/Blog-Site.github.io/assets/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
     <header>
+        <h1>Blog Post</h1>
+        <h6><span>by Danyelle Clark</span></h6>
+    </header>
 
+    <nav>
+        <ul>
+            <li><a href="/Blog-Site.github.io/About.html">About</a></li>
+            <li><a href="/Blog-Site.github.io/Blog Post.html">Blog Post</a></li>
+        </ul>
+    </nav>
 
-        <div class="grid-container">
-            <a href="#">
-                <i class="fa fa-twitter"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-facebook"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-linkedin"></i>
-            </a>
+    <main>
+        <h2>Latest Posts</h2>
+        <div class="card-container-flex">
+            <div class="card-flex">
+
+                <figure>
+                    <img src="/Blog-Site.github.io/assets/Images/IMG_2133.webp"
+                        alt="Transformers Rise Of the Beast Poster">
+                    <h3>Transformers Rise Of The Beast</h3>
+                    <figcaption>
+                        <blockquote cite="https://www.transformersmovie.com/">
+                            <p><i>Fig.1 - Michael Bay's live-action Transformers movie took audiences by storm,
+                                    showcasing top-of-the-line
+                                    special effects and thrilling action. And in the years since this blockbuster first
+                                    spectacle,
+                                    the franchise has unleashed five more live-action movies — with its next
+                                    installment,
+                                    Transformers: Rise of the Beasts, slated for June 9, 2023.</i></p>
+                        </blockquote>
+                    </figcaption>
+                </figure>
+            </div>
+
         </div>
+    </main>
 
-        <div class="pages">
-            <a href="/Blog-Site.github.io/index.html">Homepage</a>
-            <br>
-            <a href="/Blog-Site.github.io/About.html">About</a>
+
+    <footer class="footer">
+        <div class="social">
+            <div class="row">
+                <h6>Follow us:</h6>
+                <a href="#"><i class="fab fa-instagram">
+                    </i></a>
+                <a href="#"><i class="fab fa-facebook-f">
+                    </i></a>
+                <a href="#"><i class="fab fa-linkedin">
+                    </i></a>
+            </div>
+
+            <p class="copyright"> &copy; Curated by Danyelle Clark</p>
         </div>
+    </footer>
+
+
 </body>
 
 </html>
